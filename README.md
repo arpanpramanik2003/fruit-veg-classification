@@ -23,7 +23,6 @@ fruit_veg_classifier/
 │── app.py                 # Streamlit web app script
 │── requirements.txt       # Dependencies for the project
 │── README.md              # Project documentation
-│── assets/                # Folder for images/screenshots
 ```
 
 ## 🚀 Installation & Usage
