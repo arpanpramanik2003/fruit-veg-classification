@@ -1,4 +1,4 @@
-# Fruits & Vegetables Classification 🍎🥕🍉🥭
+![Fruits & Vegetables Classification 🍎🥕🍉🥭](image.png)
 
 [Dataset Link](https://www.kaggle.com/datasets/kritikseth/fruit-and-vegetable-image-recognition)
 
