@@ -1,5 +1,7 @@
 # Fruits & Vegetables Classification 🍎🥕🍉🥭
 
+[Dataset Link](https://www.kaggle.com/datasets/kritikseth/fruit-and-vegetable-image-recognition)
+
 ## 📌 Project Overview
 This project is a **deep learning-based image classification system** that identifies different types of fruits and vegetables from an uploaded image. The model is built using **TensorFlow** and deployed using **Streamlit**.
 
