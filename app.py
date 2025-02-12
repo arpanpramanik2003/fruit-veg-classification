@@ -6,7 +6,7 @@ from PIL import Image
 from tensorflow.keras.applications.efficientnet import preprocess_input
 
 # Load the trained model
-model = tf.keras.models.load_model('effecient_model.h5')
+model = tf.keras.models.load_model('efficient_model.h5')
 
 # Define class labels
 class_labels = ['apple', 'banana', 'beetroot', 'bell pepper', 'cabbage',
