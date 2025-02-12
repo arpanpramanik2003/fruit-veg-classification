@@ -37,7 +37,7 @@ if uploaded_file is not None:
     # Center the image using Streamlit columns
     col1, col2, col3 = st.columns([1, 2, 1])  # Middle column is wider
     with col2:
-        st.image(image, caption="Uploaded Image", use_column_width=True)  
+        st.image(image, caption="Uploaded Image", use_container_width=True)  
 
     # Preprocess the image
     processed_image = preprocess_image(image)
