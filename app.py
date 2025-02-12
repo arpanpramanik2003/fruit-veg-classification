@@ -3,9 +3,10 @@ import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
 from PIL import Image
+from tensorflow.keras.applications.efficientnet import preprocess_input
 
 # Load the trained model
-model = tf.keras.models.load_model('cnn_model.h5')
+model = tf.keras.models.load_model('effecient_model.h5')
 
 # Define class labels
 class_labels = ['apple', 'banana', 'beetroot', 'bell pepper', 'cabbage',
@@ -27,7 +28,8 @@ uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
 
 def preprocess_image(image):
     image = image.resize((224, 224))
-    image = np.array(image)
+    image = np.array(image)  
+    image = preprocess_input(image)  
     image = np.expand_dims(image, axis=0)
     return image
 
