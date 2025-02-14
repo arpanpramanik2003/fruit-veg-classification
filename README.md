@@ -33,8 +33,8 @@ fruit_veg_classifier/
 ## 🚀 Installation & Usage
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/arpanpramanik2003/fruit-veg-detection-efficientnet.git
-cd fruit-veg-detection-efficientnet
+git clone https://github.com/arpanpramanik2003/fruit-veg-classification.git
+cd fruit-veg-classification
 ```
 
 ### 2️⃣ Install Dependencies
